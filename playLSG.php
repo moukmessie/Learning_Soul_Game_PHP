@@ -16,7 +16,7 @@
     <body>
             <?php
 
-            require __DIR__ . '/class/Autoloader.php';
+            require __DIR__ . '/Autoloader.php';
             Autoloader::register();
 
            // require_once "lsg/LearningSoulsGame.php";
