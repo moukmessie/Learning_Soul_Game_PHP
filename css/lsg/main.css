@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    margin: 10px;
+    text-align: center;
+}
+pre{
+    border: none;
+    background: none;
+    padding: 0;
+    /*font-size: 0.8em;*/
+}
+
+#lsg-replay{
+    width: 100%;
+    font-size: 1.5em;
+}
+.lsg-game{
+    background: black;
+    border-radius: 3px;
+    text-align: center;
+    /*font-family: 'Special Elite', cursive;*/
+}
+
+.lsg-title, .lsg-win{
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.lsg-title{
+    color: lightskyblue;
+}
+
+.lsg-attack{
+    margin-top: 2em;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    border-top: 1px solid grey;
+    font-weight: bold;
+}
+
+.lsg-title, .lsg-attack{
+    color: orange;
+}
+
+.lsg-game pre{
+    color: lightgrey;
+    font-size: 80%;
+}
+
+.lsg-win{
+    color: orangered;
+}
+
+.alive{
+    color: greenyellow;
+}
+
+.dead{
+    color: red;
+}
