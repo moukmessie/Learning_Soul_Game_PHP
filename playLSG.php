@@ -14,17 +14,22 @@
     <link rel="stylesheet" href="<?php __DIR__ ?>css/lsg/main.css" >
 </head>
     <body>
-            <?php
 
-            require __DIR__ . '/Autoloader.php';
-            Autoloader::register();
+            <?php
+                require __DIR__ .'/class/Autoloader.php';
+                Autoloader::register();
+            // require('Web3/Autoloader.php');
+            //require_once ('class/Autoloader.php');
 
            // require_once "lsg/LearningSoulsGame.php";
 
             $lsg = new \lsg\LearningSoulsGame();
-            $lsg->play_v1() ;
+          //  $lsg->play_v1() ;
             ?>
-         <div class="lsg-game override-pre"><?php $lsg->play_v1(); ?></div>
+         <div class="lsg-game override-pre">
+             <h1 style="color: blue">LEARNING SOULS GAME</h1>
+             <?php $lsg->play_v1(); ?>
+         </div>
 
         <button class="btn btn-primary" id="lsg-replay">Play Again</button>
 
